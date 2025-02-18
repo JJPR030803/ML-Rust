@@ -1,0 +1,11 @@
+[package]
+name = "El_Embebidos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+ndarray = "0.15.0"
+ndarray-stats = "0.5.0"
+gnuplot = "0.0.44"
+ndarray-linalg = {version = "0.16", features = ["openblas"]}
